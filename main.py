@@ -28,7 +28,7 @@ if __name__ == '__main__':
         "Paulo Tivane",
         "Venildo Mesa",
         "Clayton Chilaule",
-        "Eton Manhique","A","B","F","D"
+        "Eton Manhique"
     ]
 
     estudantes_escolhidos : list[str] = []
@@ -43,6 +43,4 @@ if __name__ == '__main__':
         # reordenar a lista aleatoriamente
         numpy.random.shuffle(estudantes)
         
-
     print(estudantes_escolhidos)
-    print("###")
